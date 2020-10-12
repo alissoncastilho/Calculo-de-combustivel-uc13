@@ -27,6 +27,8 @@ var app = new Framework7({
   ],
 });
 
+
+
 var mainView = app.views.create('.view-main');
 
 var popup = app.popup.open(".popup-inicial"); 
