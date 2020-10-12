@@ -13,6 +13,14 @@ var app = new Framework7({
   routes: [{
           path: '/home/',
           url: 'index.html',
+      }, {
+        path: '/historico/',
+        url: 'historico.html?a=x',
+        on:{
+          pageInit:function(){
+            historico();
+          },
+        },
       },
 
 
